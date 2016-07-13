@@ -16,6 +16,15 @@ switch($message) {
  case "/test":
   sendMessage($chatId, "test");
   break;
+   case "/developer":
+  sendMessage($chatId, "My Developer Amir White Hat");
+  break;
+   case "/hello":
+  sendMessage($chatId, "hi");
+  break;
+   case "/start":
+  sendMessage($chatId, "bot is started");
+  break;
  case "/hi":
   sendMessage($chatId, "hi there!");
   break;
